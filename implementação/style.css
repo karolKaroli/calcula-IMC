@@ -1,0 +1,18 @@
+
+body{
+    height: 70vh;
+    background-image: linear-gradient(rgb(0,0,0),rgb(206, 206, 210),rgb(10, 85, 10));
+}
+.main{
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    background-color:rgba(0,0,0,.2);
+    padding: 5%;
+    margin-top: 15%;
+    margin-left: 25%;
+
+}
+h1{
+    text-align: center;
+}

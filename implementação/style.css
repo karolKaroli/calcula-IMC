@@ -48,3 +48,13 @@ h4{
     background-image: linear-gradient(rgb(92, 91, 143),rgb(6, 40, 12),rgb(77, 180, 96),rgb(138, 137, 192));
     padding: 10%;
 }
+.btn{
+    text-decoration: dashed;
+    font-family: Castoro;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    align-items: center;
+    align-content: center;
+}

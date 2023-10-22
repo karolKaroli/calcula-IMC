@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resulatdo</title>
+     <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Resultado</title>
 </head>
 <body>
     <header>
@@ -12,16 +13,16 @@
     </div>
     </header>
     <div  class="main">
-    <h1>DADOS</h1>
+    <h1>RESULTADO</h1>
     <?php 
-        if (isset($_POST[['btnEnviar']])){
+        if (isset($_POST['btnEnviar'])){
             include("calcula.php");
             $altura = $_POST["altura"];
             $peso = $_POST["peso"];
-
+        
             $valor = calculaIMC($altura,$peso);
             echo "O seu valor de IMC é {$valor}";
-            exit();
+            // exit();
         }
 ?>
 </div>
